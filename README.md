@@ -24,7 +24,7 @@ AutoDownloadOrganizer is a Python application that automatically organizes downl
 
 3. Install the required dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install watchdog
     ```
 
 ## Usage
@@ -49,15 +49,10 @@ AutoDownloadOrganizer is a Python application that automatically organizes downl
 - `self.path_to_already`: Directory for files that could not be moved to their intended destination.
 - `self.path_to_unknown`: Directory for unknown file types.
 
-## License
+## Contributing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [watchdog](https://pypi.org/project/watchdog/) - Python library used for monitoring file system events.
+This project is in its early stages, and there are known flaws and areas for improvement. If you are interested in contributing, please feel free to submit a pull request with your enhancements or fixes. Your contributions are welcome, Thank You!
 
 ## Contact
 
-For any questions or feedback, please reach out to [your.email@example.com](mailto:your.email@example.com).
-
+For any questions or feedback, please reach out to [nox0389@gmail.com](mailto:nox0389@gmail.com).
