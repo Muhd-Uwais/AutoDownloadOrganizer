@@ -54,7 +54,7 @@ class DownloadManager:
         Initialize the directory watcher for the Downloads folder.
         This method sets up the observer to monitor the specified directory.
         """
-        path = "D:\\Downloads"  # Directory to monitor for new files
+        path = "D:\\Downloads"  # Directory to monitor for new files, replace with yours.
         event_handler = FileSystemEventHandler()  # Create event handler
         event_handler.on_created = self.on_create  # Assign the handler function for file creation
         
