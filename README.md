@@ -14,7 +14,7 @@ AutoDownloadOrganizer is a Python application that automatically organizes downl
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/AutoDownloadOrganizer.git
+    git clone https://github.com/Muhd-Uwais/AutoDownloadOrganizer.git
     ```
 
 2. Navigate to the project directory:
