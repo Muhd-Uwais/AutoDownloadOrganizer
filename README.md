@@ -1,3 +1,63 @@
-<h1>AutoFile Sorter</h1>
+# AutoDownloadOrganizer
 
-This project is an initial version of a download manager designed to automatically sort downloaded files into their respective directories. It is in its early stages of development, and I welcome any advice for improvement. If you have suggestions or can provide an enhanced version, I would greatly appreciate your contributions. Thank you!
+AutoDownloadOrganizer is a Python application that automatically organizes downloaded files into designated folders based on their type. It uses the `watchdog` library to monitor a specified directory for new files and categorizes them into folders for images, videos, music, PDFs, and other file types. Large video files are moved to a separate folder for better management. 
+
+## Features
+
+- Monitors a specified directory for new files.
+- Categorizes files into folders based on their type (e.g., images, videos, music).
+- Moves large video files to a designated folder for large videos.
+- Handles and moves unknown file types to a separate folder.
+- Provides logging of file processing and error handling.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/AutoDownloadOrganizer.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd AutoDownloadOrganizer
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Update the paths in the `DownloadManager` class in `main.py` to match your directory structure.
+
+2. Run the script:
+    ```bash
+    python main.py
+    ```
+
+3. The script will start monitoring the specified directory and organize files as they are created.
+
+## Configuration
+
+- `self.path_to_image`: Directory for image files.
+- `self.path_to_video`: Directory for regular video files.
+- `self.path_to_large_video`: Directory for large video files.
+- `self.path_to_song`: Directory for music files.
+- `self.path_to_pdf`: Directory for PDF files.
+- `self.path_to_exe_msi_zip`: Directory for executable, MSI, and ZIP files.
+- `self.path_to_already`: Directory for files that could not be moved to their intended destination.
+- `self.path_to_unknown`: Directory for unknown file types.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [watchdog](https://pypi.org/project/watchdog/) - Python library used for monitoring file system events.
+
+## Contact
+
+For any questions or feedback, please reach out to [your.email@example.com](mailto:your.email@example.com).
+
