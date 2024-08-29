@@ -55,4 +55,4 @@ This project is in its early stages, and there are known flaws and areas for imp
 
 ## Contact
 
-For any questions or feedback, please reach out to [nox0389@gmail.com](mailto:nox0389@gmail.com).
+For any questions or feedback, please [Contact Me](https://nox-uwi.github.io/Form/).
